@@ -1,1 +1,13 @@
-  
+#!/bin/bash
+sudo apt update
+sudo apt install docker.io -y 
+sudo systemctl start docker 
+sudo systemctl enable docker 
+docker --version
+
+
+2.	DOCKER SERVICE
+systemctl status 
+docker systemctl start docker 
+systemctl stop docker 
+systemctl restart docker
